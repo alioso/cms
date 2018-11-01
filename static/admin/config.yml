@@ -13,7 +13,7 @@ collections:
 
     label: "Event" # Used in the UI
 
-    folder: "content/events" # The path to the folder where the documents are stored
+    folder: "events" # The path to the folder where the documents are stored
 
     create: true # Allow users to create new documents in this collection
 
@@ -35,19 +35,19 @@ collections:
         name: "date"
         required: true
         widget: "datetime"
-        default: true
+        default: ""
 
       - label: "Start Date"
         name: "start_date"
         required: true
         widget: "datetime"
-        default: true
+        default: ""
 
       - label: "End Date"
         name: "end_date"
         required: true
         widget: "datetime"
-        default: true
+        default: ""
       
       - label: "Location"
         location: "title"
