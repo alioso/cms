@@ -1,20 +1,20 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "rougon"
+title = "Linode CMS"
 
 [outputs]
   page = ["json"]
   home = ["json", "redirect"]
   teams = ["json"]
   section = ["json"]
-  taxonomy = ["json", "players"]
+  taxonomy = ["json"]
 
 [mediaTypes."text/netlify"]
   suffixes = [""]
   delimiter = ""
 
-[outputFormats.players]
-  baseName = "players"
+[outputFormats.events]
+  baseName = "events"
   mediatype = "application/json"
 
 [outputFormats.redirect]
