@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "rougon"
+
+[outputs]
+  page = ["json"]
+  home = ["json", "redirect"]
+  teams = ["json"]
+  section = ["json"]
+  taxonomy = ["json", "players"]
+
+[mediaTypes."text/netlify"]
+  suffixes = [""]
+  delimiter = ""
+
+[outputFormats.players]
+  baseName = "players"
+  mediatype = "application/json"
+
+[outputFormats.redirect]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+
+[taxonomies]
+  sport = "sports"
+  practice = "practices"
+
+[permalinks]
+  page = "/:section/:title/"
