@@ -71,6 +71,6 @@ collections:
         widget: "image"
 
       - label: "Content"
-        name: "body"
+        name: "content"
         widget: "markdown"
         required: false
