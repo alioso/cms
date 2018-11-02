@@ -22,8 +22,6 @@ title = "Linode CMS"
   baseName = "_redirects"
 
 [taxonomies]
-  sport = "sports"
-  practice = "practices"
 
 [permalinks]
   page = "/:section/:title/"
