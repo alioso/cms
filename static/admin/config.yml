@@ -25,12 +25,6 @@ collections:
         name: "title"
         widget: "string"
 
-      - label: "Draft"
-        name: "draft"
-        required: true
-        widget: "boolean"
-        default: true
-
       - label: "Publish Date"
         name: "date"
         required: true
