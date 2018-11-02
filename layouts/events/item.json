@@ -7,7 +7,7 @@
   "image_url" : "{{ .Params.image_url }}",
   "register_link" : "{{ .Params.register_link }}",
   "sites": "{{ .Params.sites }}",
-  "body": "{{ .Content }}",
+  "summary": "{{ .Summary }}",
   "permalink" : "{{ .Permalink }}"
   {{ range $index, $e := .Site.Taxonomies }}
     {{ with $.Param $index }}
