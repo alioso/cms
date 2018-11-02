@@ -3,12 +3,12 @@
   "start_date" : "{{ .Params.start_date }}",
   "end_date" : "{{ .Params.end_date }}",
   "location" : "{{ .Params.location }}",
-  "event_url" : "{{ .Params.event_url }}",
-  "image_url" : "{{ .Params.image_url }}",
-  "register_link" : "{{ .Params.register_link }}",
-  "content": "{{ .Content }}",
+  "event_url" : "{{ .Params.event_url | jsonify }}",
+  "image_url" : "{{ .Params.image_url | jsonify }}",
+  "register_link" : "{{ .Params.register_link | jsonify}}",
+  "content": "{{ .Content | jsonify }}",
   "sites": "{{ .Params.sites }}",
-  "permalink" : "{{ .Permalink }}"
+  "permalink" : "{{ .Permalink | jsonify }}"
   {{ range $index, $e := .Site.Taxonomies }}
     {{ with $.Param $index }}
       ,"{{ $index }}" : "{{ delimit . ", "}}"
