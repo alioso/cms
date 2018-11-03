@@ -1,2 +1,1 @@
-{{ .Params.location }}
-{{ .Content }}
+{{ .Content | jsonify }}

@@ -4,5 +4,4 @@
     "type": "{{ .Type }}",
     "permalink" : "{{ .Permalink }}",
     "summary" : "{{ .Summary }}",
-    "content" : "{{ .Content }}"
 }
