@@ -3,5 +3,6 @@
     "date": "{{ .Date }}",
     "type": "{{ .Type }}",
     "permalink" : "{{ .Permalink }}",
-    "summary" : "{{ .Summary }}"
+    "summary" : "{{ .Summary }}",
+    "content" : "{{ .Content }}"
 }
