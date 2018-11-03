@@ -1,1 +1,3 @@
-{{ .Content | jsonify }}
+{
+  "content": "{{ .Content }}"
+}
