@@ -1,12 +1,12 @@
 {
   "title": "{{ .Title }}",
+  "content": {{ .Content }},
   "start_date" : "{{ .Params.start_date }}",
   "end_date" : "{{ .Params.end_date }}",
   "location" : "{{ .Params.location }}",
   "event_url" : "{{ .Params.event_url }}",
   "image_url" : "{{ .Params.image_url }}",
   "register_link" : "{{ .Params.register_link}}",
-  "content": {{ .Content | jsonify }},
   "sites": "{{ .Params.sites }}",
   "permalink" : "{{ .Permalink }}"
   {{ range $index, $e := .Site.Taxonomies }}
