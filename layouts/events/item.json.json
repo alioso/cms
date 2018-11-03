@@ -1,4 +1,4 @@
-{
+[{
   "title": "{{ .Title }}",
   "start_date" : "{{ .Params.start_date }}",
   "end_date" : "{{ .Params.end_date }}",
@@ -9,4 +9,4 @@
   "content": "{{ .Content }}",
   "sites": "{{ .Params.sites }}",
   "permalink" : "{{ .Permalink }}"
-}
+}]
