@@ -1,0 +1,5 @@
+{{ define "response" }}
+  [{{ range $i, $e := .Site.Taxonomies.changelog }}
+    {{ if $i }}, {{ end }} {{ $e }}
+  {{ end }}]
+{{ end }}
