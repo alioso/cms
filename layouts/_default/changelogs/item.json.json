@@ -2,7 +2,7 @@
     "title": "{{ .Title }}",
     "date": "{{ .Date }}",
     "content": {{ .Render "content" }},
-    "version": {{ .Params.version }},
+    "version": "{{ .Params.version }}",
     "changelog": "{{ .Params.changelog }}",
     "permalink" : "{{ .Permalink }}"
     {{ range $index, $e := .Site.Taxonomies }}
