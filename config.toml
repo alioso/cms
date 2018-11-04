@@ -20,6 +20,10 @@ title = "Linode CMS"
   baseName = "changelog"
   mediatype = "application/json"
 
+[outputFormats.taxonomies]
+  baseName = "taxonomies"
+  mediatype = "application/json"
+
 [outputFormats.redirect]
   mediatype = "text/netlify"
   baseName = "_redirects"
