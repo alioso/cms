@@ -6,7 +6,7 @@ title = "Linode CMS"
   page = ["json"]
   home = ["json", "redirect"]
   section = ["json"]
-  taxonomy = ["json"]
+  taxonomy = ["json", "changelog"]
 
 [mediaTypes."text/netlify"]
   suffixes = [""]
