@@ -1,6 +1,8 @@
 {
     "title": "{{ .Title }}",
+    "date": "{{.Date}}",
     "content": {{ .Render "content" }},
+    "version": {{  .Params.version }},
     "sites": "{{ .Params.sites }}",
     "permalink" : "{{ .Permalink }}"
     {{ range $index, $e := .Site.Taxonomies }}
