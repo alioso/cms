@@ -6,7 +6,7 @@ title = "Linode CMS"
   page = ["json"]
   home = ["json", "redirect"]
   section = ["json"]
-  taxonomy = ["json", "changelogs"]
+  taxonomy = ["json", "changelog"]
 
 [mediaTypes."text/netlify"]
   suffixes = [""]
@@ -17,7 +17,7 @@ title = "Linode CMS"
   mediatype = "application/json"
 
 [outputFormats.changelogs]
-  baseName = "changelogs"
+  baseName = "changelog"
   mediatype = "application/json"
 
 [outputFormats.redirect]
