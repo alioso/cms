@@ -5,7 +5,6 @@ title = "Linode CMS"
 [outputs]
   page = ["json"]
   home = ["json", "redirect"]
-  teams = ["json"]
   section = ["json"]
   taxonomy = ["json"]
 
@@ -27,6 +26,7 @@ title = "Linode CMS"
 
 [taxonomies]
   sites = "sites"
+  changelog = "changelog"
 
 [permalinks]
   page = "/:section/:title/"
