@@ -16,7 +16,7 @@ title = "Linode CMS"
   baseName = "events"
   mediatype = "application/json"
 
-[outputFormats.changelogs]
+[outputFormats.changelog]
   baseName = "changelog"
   mediatype = "application/json"
 
