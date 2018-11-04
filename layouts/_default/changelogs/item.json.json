@@ -1,9 +1,9 @@
 {
     "title": "{{ .Title }}",
-    "date": "{{.Date}}",
+    "date": "{{ .Date }}",
     "content": {{ .Render "content" }},
-    "version": {{  .Params.version }},
-    "sites": "{{ .Params.sites }}",
+    "version": {{ .Params.version }},
+    "changelog": "{{ .Params.changelog }}",
     "permalink" : "{{ .Permalink }}"
     {{ range $index, $e := .Site.Taxonomies }}
       {{ with $.Param $index }}
