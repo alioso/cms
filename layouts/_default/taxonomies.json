@@ -1,5 +1,5 @@
 {{ define "response" }}
-  [{{ range $i, $e := .Site.Taxonomies.changelog }}
+  [{{ range $i, $e := .Site.Taxonomies }}
     {{ if $i }}, {{ end }} {{ $e }}
   {{ end }}]
 {{ end }}
