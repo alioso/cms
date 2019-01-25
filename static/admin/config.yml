@@ -13,7 +13,7 @@ collections:
 
     label: "Event" # Used in the UI
 
-    folder: "content/events/{{year}}" # The path to the folder where the documents are stored
+    folder: "content/events/" # The path to the folder where the documents are stored
 
     create: true # Allow users to create new documents in this collection
 
@@ -79,7 +79,7 @@ collections:
 
     label: "Changelogs" # Used in the UI
 
-    folder: "content/changelog/{{year}}" # The path to the folder where the documents are stored
+    folder: "content/changelog/" # The path to the folder where the documents are stored
 
     create: true # Allow users to create new documents in this collection
 
