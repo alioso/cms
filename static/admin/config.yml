@@ -75,7 +75,7 @@ collections:
         widget: "markdown"
         required: false
   
-   - name: "changelog" # Used in routes, e.g., /admin/collections/blog
+  - name: "changelog" # Used in routes, e.g., /admin/collections/blog
 
     label: "Changelogs" # Used in the UI
 
