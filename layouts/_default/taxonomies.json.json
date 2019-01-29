@@ -1,5 +1,5 @@
 {{ define "response" }}
-  [{{ range $i, $e := .Site.Taxonomies }}
+  [{{ range $i, $e := .Paginate .Site.Taxonomies }}
     {{ if $i }}, {{ end }} {{ $e }}
   {{ end }}]
 {{ end }}

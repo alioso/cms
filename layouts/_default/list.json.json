@@ -1,5 +1,5 @@
 {{ define "response" }}
-  [{{ range $i, $e := .Paginator.Data.Pages }}
+  [{{ range $i, $e := .Data.Pages }}
     {{ if $i }}, {{ end }}{{ .Render "item" }}
   {{ end }}]
 {{ end }}
